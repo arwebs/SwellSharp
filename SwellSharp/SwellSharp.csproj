@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>SwellSharp</RootNamespace>
     <Version>0.0.2</Version>
   </PropertyGroup>
   <PropertyGroup>

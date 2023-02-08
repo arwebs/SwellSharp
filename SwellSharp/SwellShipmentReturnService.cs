@@ -1,4 +1,7 @@
-﻿using Abp.Extensions;
+﻿using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Abp.Extensions;
 using SwellSharp.Dto;
 
 namespace SwellSharp

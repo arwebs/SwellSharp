@@ -1,4 +1,6 @@
-﻿namespace SwellSharp
+﻿using System.Collections.Generic;
+
+namespace SwellSharp
 {
     public static class SwellConsts
     {
