@@ -142,7 +142,7 @@ namespace SwellSharp
 
         public async Task<SwellProduct> GetSwellProduct(string productId)
         {
-            var uri = $"{SwellConsts.ProductsUrl}/{productId}?expand={SwellConsts.ProductsExpand}";
+            var uri = $"{SwellConsts.ProductsUrl}/{productId}?where[active]=true&expand={SwellConsts.ProductsExpand}";
             return await ApiClient.ExecuteAsync<SwellProduct>(HttpMethod.Get, uri);
         }
 
