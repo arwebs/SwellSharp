@@ -95,5 +95,8 @@ namespace SwellSharp.Dto
 
         [JsonProperty("quantity")]
         public int? Quantity { get; set; }
+
+        [JsonProperty("bundle_item_id")]
+        public string BundleItemId { get; set; }
     }
 }
