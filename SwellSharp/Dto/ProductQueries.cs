@@ -207,13 +207,13 @@ namespace SwellSharp.Dto
     public class ShipmentDimensions
     {
         [JsonProperty("length")]
-        public long Length { get; set; }
+        public decimal? Length { get; set; }
 
         [JsonProperty("width")]
-        public long Width { get; set; }
+        public decimal? Width { get; set; }
 
         [JsonProperty("height")]
-        public long Height { get; set; }
+        public decimal? Height { get; set; }
 
         [JsonProperty("unit")]
         public string Unit { get; set; }
