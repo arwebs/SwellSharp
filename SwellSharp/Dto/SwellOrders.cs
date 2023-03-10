@@ -603,6 +603,9 @@ namespace SwellSharp.Dto
         [JsonProperty("quantity_delivered")]
         public long? QuantityDelivered { get; set; }
 
+        [JsonProperty("quantity_returnable")]
+        public long? QuantityReturnable { get; set; }
+
         [JsonProperty("recurring", NullValueHandling = NullValueHandling.Ignore)]
         public bool? Recurring { get; set; }
 
