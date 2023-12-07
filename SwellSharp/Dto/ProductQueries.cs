@@ -57,7 +57,7 @@ namespace SwellSharp.Dto
         public bool? Bundle { get; set; }
 
         [JsonProperty("price")]
-        public long Price { get; set; }
+        public long? Price { get; set; }
 
         [JsonProperty("stock_tracking")]
         public bool StockTracking { get; set; }
@@ -282,10 +282,10 @@ namespace SwellSharp.Dto
         public string Id { get; set; }
 
         [JsonProperty("price")]
-        public long Price { get; set; }
+        public long? Price { get; set; }
 
         [JsonProperty("orig_price")]
-        public long OrigPrice { get; set; }
+        public long? OrigPrice { get; set; }
 
         [JsonProperty("delivery")]
         public string Delivery { get; set; }
@@ -609,7 +609,7 @@ namespace SwellSharp.Dto
         public Sort Attributes { get; set; }
 
         [JsonProperty("price")]
-        public long Price { get; set; }
+        public long? Price { get; set; }
 
         [JsonProperty("prices")]
         public object[] Prices { get; set; }

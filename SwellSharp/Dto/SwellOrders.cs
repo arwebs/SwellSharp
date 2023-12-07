@@ -532,7 +532,7 @@ namespace SwellSharp.Dto
         public string VariantId { get; set; }
 
         [JsonProperty("price")]
-        public long Price { get; set; }
+        public long? Price { get; set; }
 
         [JsonProperty("quantity")]
         public int Quantity { get; set; }
@@ -693,7 +693,7 @@ namespace SwellSharp.Dto
         public string Name { get; set; }
 
         [JsonProperty("price")]
-        public long Price { get; set; }
+        public long? Price { get; set; }
 
         [JsonProperty("description")]
         public string Description { get; set; }
