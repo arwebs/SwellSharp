@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <RootNamespace>SwellSharp</RootNamespace>
-    <Version>0.0.6</Version>
+    <Version>0.0.7</Version>
   </PropertyGroup>
   <PropertyGroup>
     <Description>SwellSharp is a C# and .NET library that helps developers easily manage Swell stores.</Description>
