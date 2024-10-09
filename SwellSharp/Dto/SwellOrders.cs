@@ -34,7 +34,7 @@ namespace SwellSharp.Dto
         public ShipmentRating ShipmentRating { get; set; }
 
         [JsonProperty("shipment_discount")]
-        public long? ShipmentDiscount { get; set; }
+        public decimal? ShipmentDiscount { get; set; }
 
         [JsonProperty("schedule")]
         public object Schedule { get; set; }
@@ -121,46 +121,46 @@ namespace SwellSharp.Dto
         public object DateTrialEnd { get; set; }
 
         [JsonProperty("sub_total")]
-        public long SubTotal { get; set; }
+        public decimal SubTotal { get; set; }
 
         [JsonProperty("shipment_price")]
-        public long ShipmentPrice { get; set; }
+        public decimal ShipmentPrice { get; set; }
 
         [JsonProperty("shipment_total")]
-        public long ShipmentTotal { get; set; }
+        public decimal ShipmentTotal { get; set; }
 
         [JsonProperty("item_tax")]
-        public long ItemTax { get; set; }
+        public decimal ItemTax { get; set; }
 
         [JsonProperty("tax_included_total")]
-        public long TaxIncludedTotal { get; set; }
+        public decimal TaxIncludedTotal { get; set; }
 
         [JsonProperty("item_discount")]
-        public long ItemDiscount { get; set; }
+        public decimal ItemDiscount { get; set; }
 
         [JsonProperty("discount_total")]
-        public long DiscountTotal { get; set; }
+        public decimal DiscountTotal { get; set; }
 
         [JsonProperty("grand_total")]
-        public long GrandTotal { get; set; }
+        public decimal GrandTotal { get; set; }
 
         [JsonProperty("item_quantity_returned")]
         public long ItemQuantityReturned { get; set; }
 
         [JsonProperty("return_item_total")]
-        public long ReturnItemTotal { get; set; }
+        public decimal ReturnItemTotal { get; set; }
 
         [JsonProperty("return_item_tax")]
-        public long ReturnItemTax { get; set; }
+        public decimal ReturnItemTax { get; set; }
 
         [JsonProperty("return_item_tax_included")]
-        public long ReturnItemTaxIncluded { get; set; }
+        public decimal ReturnItemTaxIncluded { get; set; }
 
         [JsonProperty("return_total")]
-        public long ReturnTotal { get; set; }
+        public decimal ReturnTotal { get; set; }
 
         [JsonProperty("payment_balance")]
-        public long PaymentBalance { get; set; }
+        public decimal PaymentBalance { get; set; }
 
         [JsonProperty("paid")]
         public bool Paid { get; set; }
@@ -208,13 +208,13 @@ namespace SwellSharp.Dto
         public double ItemShipmentWeight { get; set; }
 
         [JsonProperty("shipment_tax_included_total")]
-        public long ShipmentTaxIncludedTotal { get; set; }
+        public decimal ShipmentTaxIncludedTotal { get; set; }
 
         [JsonProperty("tax_total")]
-        public long TaxTotal { get; set; }
+        public decimal TaxTotal { get; set; }
 
         [JsonProperty("giftcard_total")]
-        public long GiftcardTotal { get; set; }
+        public decimal GiftcardTotal { get; set; }
 
         [JsonProperty("guest")]
         public bool Guest { get; set; }
@@ -235,10 +235,10 @@ namespace SwellSharp.Dto
         public string Status { get; set; }
 
         [JsonProperty("payment_total")]
-        public long PaymentTotal { get; set; }
+        public decimal PaymentTotal { get; set; }
 
         [JsonProperty("refund_total")]
-        public long RefundTotal { get; set; }
+        public decimal RefundTotal { get; set; }
 
         [JsonProperty("number")]
         public long Number { get; set; }
@@ -322,7 +322,7 @@ namespace SwellSharp.Dto
         public string Method { get; set; }
 
         [JsonProperty("amount")]
-        public double Amount { get; set; }
+        public decimal Amount { get; set; }
 
         [JsonProperty("reason")]
         public object Reason { get; set; }
@@ -532,7 +532,7 @@ namespace SwellSharp.Dto
         public string VariantId { get; set; }
 
         [JsonProperty("price")]
-        public long? Price { get; set; }
+        public decimal? Price { get; set; }
 
         [JsonProperty("quantity")]
         public int Quantity { get; set; }
@@ -544,19 +544,19 @@ namespace SwellSharp.Dto
         public object Discounts { get; set; }
 
         [JsonProperty("discount_each")]
-        public long DiscountEach { get; set; }
+        public decimal DiscountEach { get; set; }
 
         [JsonProperty("discount_total")]
-        public long DiscountTotal { get; set; }
+        public decimal DiscountTotal { get; set; }
 
         [JsonProperty("taxes")]
         public object Taxes { get; set; }
 
         [JsonProperty("tax_each")]
-        public long TaxEach { get; set; }
+        public decimal TaxEach { get; set; }
 
         [JsonProperty("tax_total")]
-        public long TaxTotal { get; set; }
+        public decimal TaxTotal { get; set; }
 
         [JsonProperty("bundle_items")]
         public List<OrderBundleItem> BundleItems { get; set; }
@@ -580,7 +580,7 @@ namespace SwellSharp.Dto
         public long? QuantityTotal { get; set; }
 
         [JsonProperty("price_total")]
-        public long? PriceTotal { get; set; }
+        public decimal? PriceTotal { get; set; }
 
         [JsonProperty("quantity_invoiceable", NullValueHandling = NullValueHandling.Ignore)]
         public long? QuantityInvoiceable { get; set; }
@@ -610,25 +610,25 @@ namespace SwellSharp.Dto
         public bool? Recurring { get; set; }
 
         [JsonProperty("orig_price", NullValueHandling = NullValueHandling.Ignore)]
-        public long? OrigPrice { get; set; }
+        public decimal? OrigPrice { get; set; }
 
         [JsonProperty("recurring_price", NullValueHandling = NullValueHandling.Ignore)]
-        public long? RecurringPrice { get; set; }
+        public decimal? RecurringPrice { get; set; }
 
         [JsonProperty("recurring_price_total", NullValueHandling = NullValueHandling.Ignore)]
-        public long? RecurringPriceTotal { get; set; }
+        public decimal? RecurringPriceTotal { get; set; }
 
         [JsonProperty("recurring_discount_total", NullValueHandling = NullValueHandling.Ignore)]
-        public long? RecurringDiscountTotal { get; set; }
+        public decimal? RecurringDiscountTotal { get; set; }
 
         [JsonProperty("recurring_discount_each", NullValueHandling = NullValueHandling.Ignore)]
-        public long? RecurringDiscountEach { get; set; }
+        public decimal? RecurringDiscountEach { get; set; }
 
         [JsonProperty("recurring_tax_total", NullValueHandling = NullValueHandling.Ignore)]
-        public long? RecurringTaxTotal { get; set; }
+        public decimal? RecurringTaxTotal { get; set; }
 
         [JsonProperty("recurring_tax_each", NullValueHandling = NullValueHandling.Ignore)]
-        public long? RecurringTaxEach { get; set; }
+        public decimal? RecurringTaxEach { get; set; }
 
         [JsonProperty("date_created", NullValueHandling = NullValueHandling.Ignore)]
         public DateTimeOffset? DateCreated { get; set; }
@@ -681,7 +681,7 @@ namespace SwellSharp.Dto
         public object Rule { get; set; }
 
         [JsonProperty("amount")]
-        public long Amount { get; set; }
+        public decimal Amount { get; set; }
 
         [JsonProperty("id")]
         public string Id { get; set; }
@@ -696,7 +696,7 @@ namespace SwellSharp.Dto
         public string Name { get; set; }
 
         [JsonProperty("price")]
-        public long? Price { get; set; }
+        public decimal? Price { get; set; }
 
         [JsonProperty("description")]
         public string Description { get; set; }
@@ -750,7 +750,7 @@ namespace SwellSharp.Dto
         public string ServiceName { get; set; }
 
         [JsonProperty("price")]
-        public long? Price { get; set; }
+        public decimal? Price { get; set; }
 
         [JsonProperty("currency", NullValueHandling = NullValueHandling.Ignore)]
         public string Currency { get; set; }
